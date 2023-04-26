@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-14T14:57:51 EDT" name="Adhoc" finished-at="2023-04-14T14:58:04 EDT" duration-ms="13658">
+    <groups>
+      <group name="Functional">
+        <method signature="signinamazon.f()[pri:0, instance:amazonregression.signinamazon@10feca44]" name="f" class="amazonregression.signinamazon"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="signinamazon.Regression()[pri:0, instance:amazonregression.signinamazon@10feca44]" name="Regression" class="amazonregression.signinamazon"/>
+      </group> <!-- Regression -->
+      <group name="adhoc">
+        <method signature="signinamazon.adhoc()[pri:0, instance:amazonregression.signinamazon@10feca44]" name="adhoc" class="amazonregression.signinamazon"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2023-04-14T14:57:51 EDT" name="functions of chrome" finished-at="2023-04-14T14:58:04 EDT" duration-ms="13658">
+      <class name="amazonregression.signinamazon">
+        <test-method is-config="true" signature="browser(java.lang.String,java.lang.String)[pri:0, instance:amazonregression.signinamazon@10feca44]" started-at="2023-04-14T14:57:51 EDT" name="browser" finished-at="2023-04-14T14:57:57 EDT" duration-ms="6152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="Regression()[pri:0, instance:amazonregression.signinamazon@10feca44]" started-at="2023-04-14T14:57:57 EDT" name="Regression" finished-at="2023-04-14T14:57:57 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regression -->
+        <test-method signature="adhoc()[pri:0, instance:amazonregression.signinamazon@10feca44]" started-at="2023-04-14T14:57:57 EDT" name="adhoc" finished-at="2023-04-14T14:57:57 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adhoc -->
+        <test-method signature="f()[pri:0, instance:amazonregression.signinamazon@10feca44]" started-at="2023-04-14T14:57:57 EDT" name="f" finished-at="2023-04-14T14:57:58 EDT" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:amazonregression.signinamazon@10feca44]" started-at="2023-04-14T14:57:58 EDT" name="afterClass" finished-at="2023-04-14T14:58:04 EDT" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- amazonregression.signinamazon -->
+    </test> <!-- functions of chrome -->
+  </suite> <!-- Adhoc -->
+</testng-results>
